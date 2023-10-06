@@ -148,7 +148,7 @@ main a:hover {
 /*header idea*/
 figure.head {
     width: 30%;
-    margin: 0 0 0 2%;
+    margin: 0 2.5% 0 0;
     float: right;
 }
 figure.head img {
@@ -157,26 +157,28 @@ figure.head img {
 }
 figure.head figcaption {
     text-align: center;
-    background-color: #171f26;
+    color: #E57220;
 }
 
-/*This will be for the images first page
-figure.wrapped {
-    width: 10rem;
-    margin: 0 0 0 2%;
-    float: left;
+/*This will be for the images first page*/
+figure.center {
+    margin: 0 0 0 0;
 }
-figure.wrapped img {
-    width: 10rem;
+
+figure.center img {
+    width: 20rem;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-figure.wrapped figcaption {
+figure.center figcaption {
     text-align: left;
     font-size: .70rem;
-    color: #6d7ebc;
+    color: #E57220;
 }
-*/
+
 /*This will be for the images guns page*/
 div.gallery {
     display: flex;
