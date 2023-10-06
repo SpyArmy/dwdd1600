@@ -1,0 +1,207 @@
+/*---- this is my css page. ----*/
+body {
+    background-color: #171f26;
+    color: #a6a6a6;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0%;
+}
+ body h1 {
+    color: #E57220;
+    padding: 1rem 2vw;
+    margin-bottom: 0%;
+}
+body p {
+    /* color: #171f26; */
+    /* background-color: #d9d8d7; */
+    padding: 0% 2vw 1rem 2rem;
+    margin-top: 0%;
+}
+body h2 {
+    color: #E57220;
+    padding: 1rem 2vw 0rem;
+    margin-bottom: 0%;
+}
+body h3 {
+    font-size: 2.25em;
+    color: #E57220;
+    padding: 1rem 2vw 0rem;
+    margin-bottom: 0%;
+}
+body li {
+    padding: 0rem 0vw 0rem;
+    margin-bottom: 0%;
+    list-style-type: circle;
+}
+body ol {
+    list-style-type: circle;
+}
+/* header stuff */
+header {
+    color: #6d7ebc;
+    background-color: #a6a6a6;
+    padding: 1rem 2vw;  
+}
+/* or 50px,10px,50px, 10px, = center or somthing like that*/
+header h1 {
+    margin: 0;
+    color: #6d7ebc;
+    padding:1rem 1%;
+}
+header p {
+    margin: 0;
+    color: #6d7ebc;
+    letter-spacing: .5px;
+}
+/*nav stuff*/
+nav {
+    background-color: #d9d8d7;
+}
+nav ul {
+
+    padding: 0rem 2vw;
+    margin: 0;
+    display: flex;
+}
+nav a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #223240;
+    font-weight: 700;
+    display: block;
+    padding: 2.8rem 2rem;
+}
+nav li.active a {
+    background-color: #223240;
+    color: #E57220;
+}
+nav a:hover {
+    color: #a6a6a6;
+}
+/*stuff for main*/
+
+main p {
+    padding-bottom: .5%;
+}
+main ol {
+    font-size: 1.1rem;
+    text-decoration: none;
+    font-weight: 700;
+    display: block;
+    padding: 1rem 2rem;
+}
+main dl dt{
+    padding: 0rem 2vw;
+    color: #E57220;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+main dl dd{
+    color: #d9d8d7;
+    font-size: .9em; 
+}
+main ul {
+    list-style-type: none
+}
+main ul li {
+    list-style-type: square;
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+    background-color: #223240;
+}
+main li {
+    margin: 0rem 2vw;
+    padding: .5rem 2vw;
+    color: #d9d8d7;
+    list-style-type: number;
+    background-color: #171f26;
+}
+body address {
+    margin: 0rem 2vw;
+    font-style: normal;
+    color: #171f26;
+    background-color: #a6a6a6;
+    padding: .5rem 2vw;
+    width: 12.5rem;
+    border-radius: 10px;
+    border: 1px solid #171f26;
+}
+/* #/16=rems this goses of the base font */
+
+/*changes link color*/
+body a {
+    color: #171f26;
+}
+body a:hover {
+    color: #a6a6a6;
+}
+main a {
+    color: #d9d8d7;
+}
+
+main a:hover {
+    color: #a6a6a6;
+}
+
+/*header idea*/
+figure.head {
+    width: 30%;
+    margin: 0 2.5% 0 0;
+    float: right;
+}
+figure.head img {
+    width: 100%;
+    height: auto;
+}
+figure.head figcaption {
+    text-align: center;
+    color: #E57220;
+}
+
+/*This will be for the images first page*/
+figure.center {
+    margin: 0 0 0 0;
+}
+
+figure.center img {
+    width: 20rem;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figure.center figcaption {
+    text-align: center;
+    font-size: .70rem;
+    color: #E57220;
+}
+
+/*This will be for the images guns page*/
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+div.gallery {
+    margin: .5rem 2% 0 0;
+}
+div.gallery figcaption {
+    text-align: center;
+    font-size: medium;
+    color: #E57220;
+}
+
+/*footer*/
+footer {
+    background-color: #a6a6a6;
+    text-align: center;
+    color: #171f26;
+    margin-top: 2rem;
+    padding: 1rem 0;
+    font-size: .8rem;
+}
+footer a {
+    color: #171f26;
+}
