@@ -122,11 +122,6 @@ header p {
         color: #d9d8d7;
         margin: 1rem 0 0 1rem;
     }
-    .tb {
-        width: 250px;
-    }
-
-
 } 
 /*big screen*/
 @media only screen and (min-width: 601px) {
