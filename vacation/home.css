@@ -157,9 +157,6 @@ header div {
     fieldset.package input {
         flex: auto;
     }
-    div.gallery {
-        margin: auto;
-    }
 }
 /*media big screen*/
 @media only screen and (max-width: 601px) {
@@ -248,6 +245,7 @@ iframe {
 
 /*images*/
 
+
 /*gallery*/
 div.gallery img {
     max-width: 100%;
@@ -270,7 +268,7 @@ div.gallery img:hover {
     box-shadow: 1px 2px 40px #18818C;
 }
 div figure {
-    padding: auto;
+    padding: 0%;
     border-radius: 2rem 2rem;
     border: 2px solid black;
 }
@@ -331,6 +329,9 @@ a.URL {
     border-radius: 50px;
     color: #0D0D0D;
     margin: 1rem 1rem;
+}
+.vid {
+    border: none;
 }
 
 
