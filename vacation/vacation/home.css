@@ -1,0 +1,360 @@
+/*this is the css page*/
+* {box-sizing: border-box;}
+/*body code*/
+body {
+    background-color: #ffffff;
+    color: #0D0D0D;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0%;
+}
+body p {
+    padding: 1rem 2vw;
+    margin: 0 1rem;
+    font-size: 1.3rem;
+}
+body main h1 {
+    padding: 0% .9rem;
+    margin-bottom: 0%;
+    color: #295073;
+    font-size: 2.5rem;
+}
+body main h2 {
+    padding: 1rem 1vw 0;
+    margin: 0 1rem;
+    color: #295073;
+    font-size: 1.5rem;
+}
+main header h1 {
+    color: #18818C;
+    margin: 1rem 0% 0%;
+}
+ul.list {
+    background-color: #18818C;
+    margin: 0% 2rem 2rem 2rem;
+    color: #ffffff;
+}
+
+/*nav code*/
+nav{
+    background-color: #18818C;
+}
+nav ul {
+    margin: 0%;
+    padding: 1px 1%;
+    list-style-type: none;
+    display: flex;
+    background-image: linear-gradient(to bottom, #295073,#18818C );
+    
+}
+nav a {
+    font-size: 2rem;
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    color: #0D0D0D;
+    background-image: linear-gradient(to bottom, #295073,#18818C );
+}
+nav a:hover {
+    color: #ffffff;
+    background-color: #18818C;
+}
+nav .active a {
+    color: #ffffff;
+    background-color: #18818C;
+}
+header {
+    padding: 1rem 2vw;
+    display: flex;
+}
+header div {
+    font-size: large;
+}
+/*main*/
+
+
+/*media small screen*/
+@media only screen and (max-width: 600px) {
+    nav{
+        background-color: #18818C;
+        font-size: 2rem;
+    }
+    nav ul {
+        margin: 0%;
+        padding: 0% 2%;
+        list-style-type: none;
+        font-size: 2rem;
+        display: block;
+    }
+    nav a {
+        display: block;
+        padding: 2rem 2rem;
+        text-decoration: none;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        color: #0D0D0D;
+        background-color: #18818C;
+        font-size: 2rem;
+    }
+    nav .active {
+        color: #ffffff;
+        background-color: #18818C;
+        font-size: 2rem;
+    }
+    .myForm fieldset { 
+        border: 1px solid #18818C;
+        border-radius: 3px;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+    }
+    .myForm label {
+        margin-left: 1rem;
+        color: #d9d8d7;
+        font-size: 2rem;
+    }
+    
+    .myForm legend {
+        font-size: 3rem;
+    }
+    
+    .myForm label, .myForm [type=text], .myForm [type=tel], .myForm textarea {
+        display: block;
+    }
+    .myForm [type=text], .myForm [type=tel], .myForm textarea {
+        border: solid 1px #295073;
+        padding: .3rem;
+        width: 250px;
+        font-family: 'Playfair Display', serif;
+        font-weight: 300;
+    }
+    .myForm textarea {
+        height: 6rem;
+    }
+    .myForm :required, [name=address]{
+        background-color: #d9d8d7;
+    }
+    .myForm [type=submit] {
+        background-color:#18818C;
+        border: none;
+        padding: 1rem 2rem;
+        border-radius: 50px;
+        color: #d9d8d7;
+        margin: 1rem 0 0 1rem;
+    }
+    ul li {
+        background-color: #18818C;
+        color: #ffffff;
+    }
+    fieldset.package {
+        margin: 2rem 2rem;
+        padding: 2rem 2rem;
+    }
+    fieldset.package input {
+        flex: auto;
+    }
+}
+/*media big screen*/
+@media only screen and (max-width: 601px) {
+    nav{
+        background-color: #18818C;
+    }
+    nav ul {
+        margin: 0%;
+        list-style-type: none;
+        font-size: .5rem;
+    }
+    nav a {
+        display: block;
+        padding: 0rem 2rem;
+        text-decoration: none;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        color: #0D0D0D;
+        background-color: #18818C;
+    }
+    nav .active a {
+        color: #ffffff;
+        background-color: #18818C;
+    }
+    .myForm fieldset { 
+        border: 1px solid #18818C;
+        border-radius: 3px;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+    }
+    .myForm label {
+        margin-left: 1rem;
+        color: #d9d8d7;
+        font-size: 2rem;
+    }
+    .myForm legend {
+        font-size: 3rem;
+    }
+    
+    .myForm label, .myForm [type=text], .myForm [type=tel], .myForm textarea {
+        display: block;
+    }
+    .myForm [type=text], .myForm [type=tel], .myForm textarea {
+        border: solid 1px #295073;
+        padding: .3rem;
+        width: 250px;
+        font-family: 'Playfair Display',serif;
+        font-weight: 300;
+    }
+    .myForm textarea {
+        height: 6rem;
+    }
+    .myForm :required, [name=address]{
+        background-color: #d9d8d7;
+    }
+    .myForm [type=submit] {
+        background-color:#6d7ebc;
+        border: none;
+        padding: 1rem 2rem;
+        border-radius: 50px;
+        color: #d9d8d7;
+        margin: 1rem 0 0 1rem;
+    }
+}
+
+/*hereo image*/
+.hero {
+    width: 100%;
+    margin: 0;
+}
+.hero img {
+    width: 100%;
+    height: auto;
+    margin-top: 0%;
+}
+body figcaption {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+/*ifram*/
+iframe {
+    padding: 1.5rem 2rem;
+}
+
+/*images*/
+
+
+/*gallery*/
+div.gallery img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 2rem 2rem;
+    border-color: #000000;
+}
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin: .5rem 2%; 
+}
+div.gallery figcaption {
+    text-align: center;
+    font-size: 1.3rem;
+    color: #000000;
+
+}
+div.gallery img:hover {
+    box-shadow: 1px 2px 40px #18818C;
+}
+div figure {
+    padding: 0%;
+    border-radius: 2rem 2rem;
+    border: 2px solid black;
+}
+/*packages*/
+fieldset.package {
+    margin: 2rem 2rem;
+    padding: 1rem 1rem;
+}
+fieldset.package input {
+    flex: auto;
+}
+a.URL {
+    color: #18818C;
+    text-decoration: none;
+}
+
+
+
+/*coment boxes*//*legands*/
+.myForm fieldset { 
+    border: 1px solid #0D0D0D;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    background-color: #ffffff;
+}
+.myForm label {
+    margin-left: 1rem;
+    color: #0D0D0D;
+    font-size: 0.8rem;
+}
+
+.myForm legend {
+    font-size: 1rem;
+}
+
+.myForm label, .myForm [type=text], .myForm [type=tel], .myForm textarea {
+    display: block;
+}
+.myForm [type=text], .myForm [type=tel], .myForm textarea {
+    border: solid 1px #0D0D0D;
+    padding: .3rem;
+    width: 250px;
+    font-family: 'Playfair Display',serif;
+    font-weight: 300;
+}
+.myForm textarea {
+    height: 6rem;
+}
+.myForm :required, [name=address]{
+    background-color: #ffffff;
+    color: #0D0D0D;
+}
+.myForm [type=submit] {
+    background-color:#18818C;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    color: #0D0D0D;
+    margin: 1rem 1rem;
+}
+.vid {
+    border: none;
+}
+
+
+
+
+
+
+/*footer*/
+footer {
+    background-color: #18818C;
+    text-align: center;
+    color: #0D0D0D;
+    margin-top: 2rem;
+    padding: .9rem 0;
+    font-size: 1rem;
+    background-image: linear-gradient(to bottom, #18818C,#295073 );
+}
+footer a {
+    color: #0D0D0D;
+}
+header, nav, main, footer, body address {
+    max-width: 64rem;
+    margin: 0 auto;
+}
+
+/*colors. #295073-dblue #18818C-blue #F26A1B-orange #F2421B-rorange #0D0D0D-black*/
